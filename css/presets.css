@@ -1,4 +1,5 @@
-.font-main
+h1
 {
-    font-family: 'Saira';
+    font-size: 28px;
+    color: #3F2F56;
 }
