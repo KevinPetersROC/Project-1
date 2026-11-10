@@ -3,3 +3,10 @@ h1
     font-size: 28px;
     color: #3F2F56;
 }
+
+h2
+{
+    font-weight: normal;
+    font-size: medium;
+    color: #6F6FB5;
+}
