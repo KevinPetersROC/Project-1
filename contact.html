@@ -47,70 +47,39 @@
                     </h2>
                 </section>
 
-                <section class="floor-map">
+                <section class="floor-plan">
                     <h2>
                         Platteground
                     </h2>
                     <p>
                         Overzicht van de lokalen in het gebouw.
                     </p>
-                    <section class="opzet-button">
-                        <button data-img="images/contact/kelder.png">
-                            Kelder
-                        </button>
-                        <button data-img="images/contact/begane-grond.png">
-                            Begane grond
-                        </button>
-                        <button data-img="images/contact/verdieping1.png">
-                            1e verdieping
-                        </button>
-                        <button data-img="images/contact/verdieping2.png">
-                            2e verdieping
-                        </button>
-                        <button data-img="images/contact/verdieping3.png">
-                            3e verdieping
-                        </button>
-                        <button data-img="images/contact/verdieping4.png">
-                            4e verdieping
-                        </button>
 
-                        <img id="floor-map" src="images/contact/kelder.png" alt="">
-                        <img id="floor-map" src="images/contact/begane-grond.png" alt="">
-                        <img id="floor-map" src="images/contact/verdieping1.png" alt="">
-                        <img id="floor-map" src="images/contact/verdieping2.png" alt="">
-                        <img id="floor-map" src="images/contact/verdieping3.png" alt="">
-                        <img id="floor-map" src="images/contact/verdieping4.png" alt="">
+                    <input type="radio" name="verdieping" id="kelder">
+                    <input type="radio" name="verdieping" id="begane-grond" checked>
+                    <input type="radio" name="verdieping" id="v1">
+                    <input type="radio" name="verdieping" id="v2">
+                    <input type="radio" name="verdieping" id="v3">
+                    <input type="radio" name="verdieping" id="v4">
 
-                        <script>
-                            const afbeelding = document.getElementById('plattegrond');
+                    <div class="knoppen">
+                        <label for="kelder">Kelder</label>
+                        <label for="begane-grond">Begane grond</label>
+                        <label for="v1">1e verdieping</label>
+                        <label for="v2">2e verdieping</label>
+                        <label for="v3">3e verdieping</label>
+                        <label for="v4">4e verdieping</label>
+                    </div>
 
-                            document.querySelectorAll('.knoppen button').forEach(knop => {
-                                knop.addEventListener('click', () => {
-                                    afbeelding.src = knop.dataset.img;
-                                    afbeelding.alt = 'Plattegrond ' + knop.textContent;
-                                });
-                            });
-                        </script>
-
-                    </section>
+                    <div class="plaatjes">
+                        <img class="img-kelder" src="images/contact/kelder.png" alt="Kelder">
+                        <img class="img-begane-grond" src="images/contact/begane-grond.png" alt="Begane grond">
+                        <img class="img-v1" src="images/contact/verdieping1.png" alt="1e verdieping">
+                        <img class="img-v2" src="images/contact/verdieping2.png" alt="2e verdieping">
+                        <img class="img-v3" src="images/contact/verdieping3.png" alt="3e verdieping">
+                        <img class="img-v4" src="images/contact/verdieping4.png" alt="4e verdieping">
+                    </div>
                 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </main>
             <!-- ===== FOOTER ===== -->
             <footer></footer>
