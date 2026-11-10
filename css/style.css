@@ -60,3 +60,16 @@ nav {
     align-items: end;
     margin-bottom: 35px;
 }
+
+.current-page {
+    color: #3F2F56;
+}
+
+header a {
+    text-decoration: none;
+    color: #6F6FB5;
+}
+
+header a:hover {
+    color: #3F2F56;
+}
