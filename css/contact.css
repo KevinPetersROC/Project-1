@@ -1,6 +1,24 @@
-.floor-map {
+.hero-copy {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+    margin-bottom: 25px;
+}
+
+
+.floor-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 70px;
 }
 
 /* radio-inputs verbergen */
@@ -12,6 +30,7 @@
 .buttons {
     display: flex;
     gap: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
