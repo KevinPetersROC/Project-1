@@ -14,11 +14,28 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .floor-plan {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 70px;
 }
 
 /* radio-inputs verbergen */
@@ -46,6 +63,7 @@
     display: none;
     max-width: 100%;
     width: 500px;
+    border-radius: 15px;
 }
 
 /* de afbeelding van de aangevinkte radio tonen */
