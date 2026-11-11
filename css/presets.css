@@ -1,17 +1,20 @@
 h1
 {
-    font-size: 42px;
+    margin: 0px;
+    font-size: 56px;
     color: #3F2F56;
 }
 
 h2
 {
-    font-size: 20px;
+    margin: 0px;
+    font-size: 26px;
     color: #3F2F56;
 }
 
 p
 {
+    margin: 0px;
     font-weight: 16px;
     font-size: medium;
 }
