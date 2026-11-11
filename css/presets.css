@@ -2,12 +2,13 @@ h1
 {
     margin: 0px;
     font-size: 56px;
-    color: #3F2F56;
+    color: #6F6FB5;
 }
 
 h2
 {
     margin: 0px;
+    font-weight: normal;
     font-size: 24px;
     color: #3F2F56;
 }
@@ -22,8 +23,19 @@ h3
 p
 {
     margin: 0px;
-    font-weight: 16px;
+    font-weight: normal;
     font-size: medium;
+}
+
+/*
+line for page section dividing
+
+<div class="line-divisor"></div>
+*/
+.line-divisor
+{
+    border: 1px solid #6F6FB5;
+    margin-bottom: 25px;
 }
 
 .boxed-container {

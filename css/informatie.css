@@ -1,9 +1,17 @@
 .hero
 {
-    padding: 10px 0px 25px;
+    text-align: center;
+    padding: 0px 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+
+.container-boxes
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 .subjects
@@ -13,7 +21,7 @@
     padding: 10px 20px;
     border: 2px solid #E3EDF6;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .container-subjects
@@ -24,22 +32,37 @@
 
 .list-subjects
 {
+    margin: 0px;
+    color: #3F2F56;
     width: fit-content;
     padding: 15px 30px;
     padding-right: 100px;
     border-radius: 10px;
-    margin: 0px;
 }
 
-.list-subjects
+.languages
 {
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.container-languages
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-languages
+{
+    margin: 0px;
     color: #3F2F56;
+    width: fit-content;
+    padding: 15px 30px;
+    padding-right: 100px;
+    border-radius: 10px;
 }
 
 .future
-{
-    background-color: #FFFFFF;
-    width: fit-content;
-    padding: 10px 20px;
-    border-radius: 10px;
+{   
+    margin-bottom: 30px;
 }
