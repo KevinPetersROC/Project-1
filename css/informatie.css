@@ -13,6 +13,7 @@
     padding: 10px 20px;
     border: 2px solid #E3EDF6;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .container-subjects
@@ -33,4 +34,12 @@
 .list-subjects
 {
     color: #3F2F56;
+}
+
+.future
+{
+    background-color: #FFFFFF;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
