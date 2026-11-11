@@ -1,0 +1,28 @@
+.subjects
+{
+    background-color: #EBF6FB;
+    width: fit-content;
+    padding: 5px 20px;
+    border: 2px solid #E3EDF6;
+    border-radius: 10px;
+}
+
+.container-subjects
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-subjects
+{
+    width: fit-content;
+    padding: 15px 40px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+
+/* lijst tekst kleur is wit */
+.list-subjects li
+{
+    color: #3F2F56;
+}
