@@ -1,27 +1,17 @@
 .hero
 {
-    text-align: center;
-    padding: 0px 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-bottom: 60px;
 }
 
 .container-boxes
 {
+    width: 75%;
     display: flex;
-    justify-content: center;
-    gap: 100px;
-}
-
-.subjects
-{
-    background-color: #EBF6FB;
-    width: fit-content;
-    padding: 10px 20px;
-    border: 2px solid #E3EDF6;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-bottom:  0px;
 }
 
 .container-subjects
@@ -34,16 +24,8 @@
 {
     margin: 0px;
     color: #3F2F56;
-    width: fit-content;
-    padding: 15px 30px;
     padding-right: 100px;
     border-radius: 10px;
-}
-
-.languages
-{
-    width: fit-content;
-    margin-bottom: 30px;
 }
 
 .container-languages
@@ -56,13 +38,17 @@
 {
     margin: 0px;
     color: #3F2F56;
-    width: fit-content;
-    padding: 15px 30px;
     padding-right: 100px;
     border-radius: 10px;
 }
 
+.internship
+{
+    width: 50%
+}
+
 .future
 {   
-    margin-bottom: 30px;
+    width: 50%
+    margin-bottom: 60px;
 }

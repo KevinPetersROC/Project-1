@@ -34,15 +34,27 @@ line for page section dividing
 */
 .line-divisor
 {
-    border: 1px solid #6F6FB5;
-    margin-bottom: 25px;
+    border: 2px solid #6F6FB5;
+    margin-bottom: 40px;
 }
 
+
+/* licht blauw box preset */
 .boxed-container {
-    background-color: #EBF6FB;
     width: fit-content;
+    background-color: #EBF6FB;
     padding: 10px 20px;
     border: 2px solid #E3EDF6;
     border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+/* doorzichtbare box preset */
+.boxed-container-transparent {
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid #d3d3d3;
+    border-radius: 0px 25px 0px 25px;
+    padding: 25px 30px;
     margin-bottom: 25px;
 }
