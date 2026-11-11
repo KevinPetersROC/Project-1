@@ -1,27 +1,23 @@
-h1
-{
+h1 {
     margin: 0px;
     font-size: 56px;
     color: #6F6FB5;
 }
 
-h2
-{
+h2 {
     margin: 0px;
     font-weight: normal;
     font-size: 24px;
     color: #3F2F56;
 }
 
-h3
-{
+h3 {
     margin: 0px;
     font-size: 18px;
     color: #3F2F56;
 }
 
-p
-{
+p {
     margin: 0px;
     font-weight: normal;
     font-size: medium;
@@ -32,8 +28,7 @@ line for page section dividing
 
 <div class="line-divisor"></div>
 */
-.line-divisor
-{
+.line-divisor {
     border: 2px solid #6F6FB5;
     margin-bottom: 40px;
 }

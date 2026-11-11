@@ -1,54 +1,46 @@
-.hero
-{
+.hero {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin-bottom: 60px;
 }
 
-.container-boxes
-{
+.container-boxes {
     width: 75%;
     display: flex;
     justify-content: space-between;
-    margin-bottom:  0px;
+    margin-bottom: 0px;
 }
 
-.container-subjects
-{
+.container-subjects {
     display: flex;
     justify-content: space-between;
 }
 
-.list-subjects
-{
+.list-subjects {
     margin: 0px;
     color: #3F2F56;
     padding-right: 100px;
     border-radius: 10px;
 }
 
-.container-languages
-{
+.container-languages {
     display: flex;
     justify-content: space-between;
 }
 
-.list-languages
-{
+.list-languages {
     margin: 0px;
     color: #3F2F56;
     padding-right: 100px;
     border-radius: 10px;
 }
 
-.internship
-{
+.internship {
     width: 50%
 }
 
-.future
-{   
+.future {
     width: 50%;
     margin-bottom: 60px;
 }
