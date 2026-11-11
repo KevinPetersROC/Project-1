@@ -18,3 +18,12 @@ p
     font-weight: 16px;
     font-size: medium;
 }
+
+.boxed-container {
+    background-color: #EBF6FB;
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid #E3EDF6;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
