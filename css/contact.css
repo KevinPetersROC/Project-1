@@ -3,25 +3,19 @@
     flex-direction: column;
 }
 
-.opzet-button {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
 /* radio-inputs verbergen */
 .floor-plan input[type="radio"] {
     display: none;
 }
 
 /* labels zien er uit als knoppen */
-.knoppen {
+.buttons {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
 }
 
-.knoppen label {
+.buttons label {
     background-color: #6e6eb5;
     padding: 15px 25px;
     border-radius: 30px;
@@ -29,29 +23,29 @@
 }
 
 /* alle afbeeldingen standaard verborgen */
-.plaatjes img {
+.images img {
     display: none;
     max-width: 100%;
     width: 500px;
 }
 
 /* de afbeelding van de aangevinkte radio tonen */
-#kelder:checked~.plaatjes .img-kelder,
-#begane-grond:checked~.plaatjes .img-begane-grond,
-#v1:checked~.plaatjes .img-v1,
-#v2:checked~.plaatjes .img-v2,
-#v3:checked~.plaatjes .img-v3,
-#v4:checked~.plaatjes .img-v4 {
+#kelder:checked~.images .img-kelder,
+#begane-grond:checked~.images .img-begane-grond,
+#v1:checked~.images .img-v1,
+#v2:checked~.images .img-v2,
+#v3:checked~.images .img-v3,
+#v4:checked~.images .img-v4 {
     display: block;
 }
 
 /* actieve knop markeren */
-#kelder:checked~.knoppen label[for="kelder"],
-#begane-grond:checked~.knoppen label[for="begane-grond"],
-#v1:checked~.knoppen label[for="v1"],
-#v2:checked~.knoppen label[for="v2"],
-#v3:checked~.knoppen label[for="v3"],
-#v4:checked~.knoppen label[for="v4"] {
+#kelder:checked~.buttons label[for="kelder"],
+#begane-grond:checked~.buttons label[for="begane-grond"],
+#v1:checked~.buttons label[for="v1"],
+#v2:checked~.buttons label[for="v2"],
+#v3:checked~.buttons label[for="v3"],
+#v4:checked~.buttons label[for="v4"] {
     background-color: #4a4a9c;
     color: white;
 }
