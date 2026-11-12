@@ -3,5 +3,3 @@ Gebruik van SCRUM Methode, Simpele HTML/CSS, en User Stories met een Product Own
 
 Gemaakt voor Projectweek 1 in leerjaar 1
 Door: Kevin, Bram, Silvano.
-
-meowow
