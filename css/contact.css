@@ -57,6 +57,7 @@
     padding: 15px 25px;
     border-radius: 30px;
     cursor: pointer;
+    color: white;
 }
 
 /* alle afbeeldingen standaard verborgen */
@@ -86,5 +87,4 @@
 #v3:checked~.buttons label[for="v3"],
 #v4:checked~.buttons label[for="v4"] {
     background-color: #4a4a9c;
-    color: white;
 }
